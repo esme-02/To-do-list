@@ -19,7 +19,7 @@ const password = process.env.PASSWORD;
 mongoose.connect('mongodb+srv://'+ userName + ':' + password + '@cluster0.yhpq35y.mongodb.net/todolistDB');
 
 const day = date.getDate();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3030;
 
 const itemsSchema = new mongoose.Schema ({
     name: String
